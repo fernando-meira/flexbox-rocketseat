@@ -117,3 +117,42 @@ div.banner h1 {
   font-size: 32px;
   font-weight: 300;
 }
+
+div.bar {
+  background: #fff;
+}
+
+div.bar .content {
+  height: 60px;
+  padding-left: 270px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.bar .content ul {
+  display: flex;
+  align-items: center;
+
+  list-style: none;
+}
+
+div.bar .content ul li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+div.bar .content ul li span {
+  padding: 0 15px;
+
+  font-size: 12px;
+  color: #667580;
+  font-weight: bold;
+}
+
+div.bar .content ul li strong {
+  font-size: 18px;
+  color: #667580;
+}
