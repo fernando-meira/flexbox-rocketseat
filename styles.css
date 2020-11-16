@@ -120,6 +120,7 @@ div.banner h1 {
 
 div.bar {
   background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
 }
 
 div.bar .content {
@@ -197,4 +198,120 @@ div.bar .content .actions button {
   font-weight: bold;
   text-align: center;
   background-color: #fff;
+}
+
+div.wrapper-content {
+  display: flex;
+}
+
+div.wrapper-content aside.profile {
+  width: 260px;
+}
+
+div.wrapper-content aside.profile img.avatar {
+  width: 200px;
+  height: 200px;
+  margin-top: -130px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+div.wrapper-content aside.profile h1 {
+  margin-top: 10px;
+
+  font-size: 21px;
+  color: #1f2226;
+}
+
+div.wrapper-content aside.profile span {
+  font-size: 14px;
+  color: #52626c;
+}
+
+div.wrapper-content aside.profile p {
+  margin-top: 15px;
+
+  font-size: 14px;
+  color: #1f2226;
+}
+
+div.wrapper-content aside.profile ul {
+  margin-top: 20px;
+
+  list-style: none;
+}
+
+div.wrapper-content aside.profile ul.list li {
+  margin-top: 5px;
+
+  display: flex;
+  align-items: center;
+
+  font-size: 14px;
+  color: #657786;
+}
+
+div.wrapper-content aside.profile ul.list li:first-child {
+  margin-top: 0;
+}
+
+div.wrapper-content aside.profile ul.list li img {
+  margin-right: 10px;
+}
+
+div.wrapper-content aside.profile .widget {
+  margin-top: 20px;
+}
+
+div.wrapper-content aside.profile .widget strong {
+  display: flex;
+  align-items: center;
+
+  color: #3bb9e3;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+div.wrapper-content aside.profile .widget img {
+  margin-right: 10px;
+}
+
+div.wrapper-content aside.profile .followers ul {
+  margin-top: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  list-style: none;
+}
+
+div.wrapper-content aside.profile .followers ul li {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin: 5px 5px 0 0;
+
+  flex: 1 0 auto;
+
+  background: #d0d5d9;
+}
+
+div.wrapper-content aside.profile .images ul {
+  margin-top: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  list-style: none;
+}
+
+div.wrapper-content aside.profile .images ul li {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  margin: 5px 5px 0 0;
+
+  flex: 1 0 auto;
+
+  background: #d0d5d9;
 }
